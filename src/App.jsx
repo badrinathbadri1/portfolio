@@ -42,7 +42,7 @@ function App() {
         <h2>PORTFOLIO</h2>
         <br></br>
         <h2>Badrinath M S</h2>
-        <h3>Full Stack Developer  React.js & Python Enthusiast</h3>
+        <h3>Full Stack Developer  ReactJS & Python Enthusiast</h3>
         
       </header>
 
@@ -50,7 +50,7 @@ function App() {
       <section className="section">
         <h2>Skills</h2>
         <div className="card-container">
-          <div className="card">React.js</div>
+          <div className="card">ReactJS</div>
           <div className="card">Python</div>
           <div className="card">Data Analysis </div>
           <div className="card">HTML,CSS and JavaScript</div>
@@ -66,7 +66,7 @@ function App() {
           <div className="card">
             <img src={ethImg} alt="Ethereum Price predictor Using Python " />
             <h3>Ethereum Price predictor Using Python</h3>
-            <p>Developed  a live Ethereum price tracker.</p>
+            <p>I Developed  a live Ethereum price tracker.</p>
             <a href="https://github.com/badrinathbadri1/eth-price-predictor" className="btn">
               Visit Project
             </a>
@@ -91,8 +91,8 @@ function App() {
 
           <div className="card">
             <img src={botrImg} alt="Chatbot for Reactjs" />
-            <h3>Chatbot for Reactjs By Using Reactjs</h3>
-            <p>I Developed and deployed a Chatbot for Reactjs by using reactjs.</p>
+            <h3>Chatbot for Reactjs By Using ReactJS</h3>
+            <p>I Developed and deployed a Chatbot for Reactjs by using reactJS.</p>
             <a href="https://badrinathbadri1.github.io/reactjs-chatbot-by-badri/" className="btn">
               Visit Project
             </a>
@@ -212,7 +212,7 @@ function App() {
           <a href="https://github.com/badrinathbadri1" target="_blank" rel="noreferrer">
             <FaGithub size={50} /><p>Github</p>
           </a>
-          <a href="https://www.sololearn.com/en/profile/3456789" target="_blank" rel="noreferrer">
+          <a href="http://sololearn.com/Profile/22757283" target="_blank" rel="noreferrer">
           <FaLaptopCode size={50} /> <p>Sololearn</p>
 
 
