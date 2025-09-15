@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: white;
+  color: #333;
+}
+.header{
+  text-align: center;
+  color:#333;
+}
+
+.Badri {
+  text-align:left;
+  padding: 1rem;
+  background: rgb(243, 239, 239);
+  
+}
+
+.Badri img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  
+  margin-bottom: 1rem;
+  filter: brightness(0.9);
+  
+}
+
+.Badri h1 {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+  color: blue;
+}
+
+.Badri p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.section {
+  padding: 2rem;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #0b4db0;
+  text-align: left;
+  border-radius:7px;
+
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: -1px -1px 7px rgba(0, 0, 0, 0.1), 4px 4px 7px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%; 
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+.card h3 {
+  color: #1565c0;
+  margin: 0.5rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  background: #1565c0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0d47a1;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: rgb(237, 233, 233);
+  margin-top: 2rem;
+}
+
+.modal {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.cert-item {
+  margin-bottom: 1rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #28a745;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.download-btn:hover {
+  background: #1e7e34;
+}
+ 
+
+/* Default (Laptop/Desktop) */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards in a row */
+  gap: 1.2rem;
+}
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards in a row */
+  }
+}
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr; /* 1 card in a row */
+  }
+
+  .Badri img {
+    width: 90px;
+    height: 90px; /* small profile pic */
+  }
+
+  .Badri h1 {
+    font-size: 1.5rem;
+  }
+
+  .Badri p {
+    font-size: 0.9rem;
+  }
+}
