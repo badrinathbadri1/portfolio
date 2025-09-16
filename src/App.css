@@ -11,19 +11,15 @@ body {
 
 .Badri {
   text-align:left;
-  padding: 1rem;
-  background: rgb(243, 239, 239);
+  color:rgb(98, 93, 93);
+  padding: 1.5rem;
+  height:230px;
+  background: rgb(241, 239, 237);
   
 }
 
-.Badri img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  
-  margin-bottom: 1rem;
-  filter: brightness(0.9);
-  
+.he{
+  text-align: center;
 }
 
 .Badri h1 {
@@ -62,7 +58,7 @@ body {
   background: #fff;
   border-radius: 12px;
   box-shadow: -1px -1px 7px rgba(0, 0, 0, 0.1), 4px 4px 7px rgba(0, 0, 0, 0.2);
-  padding: 1rem;
+  padding: 1.2rem;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -158,7 +154,10 @@ footer {
 .download-btn:hover {
   background: #1e7e34;
 }
- 
+.line{
+  color:grey;
+  display: inline;
+}
 
 /* Default (Laptop/Desktop) */
 .card-container {

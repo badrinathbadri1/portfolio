@@ -39,8 +39,8 @@ function App() {
     <div className="App">
       {/* Badri Section */}
       <header className="Badri">
-        <h2>PORTFOLIO</h2>
-        <br></br>
+        <h2 className="he">PORTFOLIO</h2>
+        .
         <h2>Badrinath M S</h2>
         <h3>Full Stack Developer  ReactJS & Python Enthusiast</h3>
         
@@ -50,12 +50,12 @@ function App() {
       <section className="section">
         <h2>Skills</h2>
         <div className="card-container">
-          <div className="card">ReactJS</div>
-          <div className="card">Python</div>
-          <div className="card">Data Analysis </div>
-          <div className="card">HTML,CSS and JavaScript</div>
-          <div className="card">GitHub</div>
-          <div className="card">MS Word,Excel and Powerpoint</div>
+          <strong><div className="card">ReactJS</div></strong>
+          <strong><div className="card">Python</div></strong>
+          <strong><div className="card">Data Analysis </div></strong>
+          <strong><div className="card">HTML,CSS and JavaScript</div></strong>
+          <strong><div className="card">GitHub</div></strong>
+          <strong><div className="card">MS Word,Excel and Powerpoint</div></strong>
         </div>
       </section>
 
@@ -118,6 +118,49 @@ function App() {
         </div>
       </section>
 
+      {/* Education */}
+      <section className="section">
+        <h2>Education</h2>
+        <div className="card-container">
+          <div className="card">
+            <h3>BE Computer Science and Engineering</h3>
+            <p>2021 - 2025</p>
+            <p>Sudharsan Engineering college, Pudukkottai.</p>
+            <p>Anna University, Chennai.</p>
+          </div>
+        </div>
+      </section>
+
+
+      {/* Internship */}
+      <section className="section">
+        <h2>Internship</h2>
+        <div className="card-container">
+          <div className="card">
+            <h3>Frontend Intern</h3>
+            <p>Worked on React.js components and UI improvements.</p>
+          </div>
+        </div>
+
+        <br></br>
+        
+        <div className="card-container">
+          <div className="card">
+            <h3>Data Analysis Intern</h3>
+            <p>I worked on Power BI tools to collect and clean data, analyze datasets, and develop visualizations.</p>
+          </div>
+        </div>
+
+        
+        <br></br>
+        <div className="card-container">
+          <div className="card">
+            <h3>Fulls Stack Intern</h3>
+            <p>I Worked on HTML, CSS, JavaScript, and PHP for both frontend design and backend development.” .</p>
+          </div>
+        </div>
+      </section>
+
       {/* Certificates */}
       <section className="section">
         <h2>Certificates</h2>
@@ -152,47 +195,9 @@ function App() {
         </div>
       )}
 
-      {/* Internship */}
-      <section className="section">
-        <h2>Internship</h2>
-        <div className="card-container">
-          <div className="card">
-            <h3>Frontend Intern</h3>
-            <p>Worked on React.js components and UI improvements.</p>
-          </div>
-        </div>
+      
 
-        <br></br>
-        
-        <div className="card-container">
-          <div className="card">
-            <h3>Data Analysis Intern</h3>
-            <p>I worked on Power BI tools to collect and clean data, analyze datasets, and develop visualizations.</p>
-          </div>
-        </div>
-
-        
-        <br></br>
-        <div className="card-container">
-          <div className="card">
-            <h3>Fulls Stack Intern</h3>
-            <p>I Worked on HTML, CSS, JavaScript, and PHP for both frontend design and backend development.” .</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Education */}
-      <section className="section">
-        <h2>Education</h2>
-        <div className="card-container">
-          <div className="card">
-            <h3>Bachelor of Computer Science </h3>
-            <p>2021 - 2025</p>
-            <p>Sudharsan Engineering college, Pudukkottai.</p>
-            <p>Anna University, Chennai.</p>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Contact */}
       <section className="section">
