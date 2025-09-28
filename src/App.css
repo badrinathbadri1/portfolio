@@ -8,18 +8,32 @@ body {
   text-align: center;
   color:#333;
 }
+.Dev{
+  font-weight: 400;
+  font-family:'Courier New', Courier, monospace;
+  
+}
+
+.Name{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+}
 
 .Badri {
   text-align:left;
-  color:rgb(98, 93, 93);
+  color:rgb(240, 234, 234);
   padding: 1.5rem;
+  
   height:230px;
-  background: rgb(241, 239, 237);
+ background: linear-gradient(to right,#043277);
   
 }
 
 .he{
   text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:300;
+  
 }
 
 .Badri h1 {
@@ -50,16 +64,24 @@ body {
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.2rem;
+  gap: 2rem;
+  
   
 }
+a{
+  text-decoration:none;
+  text-decoration-line:white;
+  color:rgba(12, 69, 212, 0.807);
+  
+}
+a:hover{
+  color:rgb(17, 31, 231);}
 
 .card {
   background: #fff;
   border-radius: 12px;
   box-shadow: -1px -1px 7px rgba(0, 0, 0, 0.1), 4px 4px 7px rgba(0, 0, 0, 0.2);
   padding: 1.2rem;
-  text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 

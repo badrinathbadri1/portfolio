@@ -16,6 +16,7 @@ import cert5 from "./assets/cert5.jpg";
 import cert6 from "./assets/cert6.jpg";
 
 // Projects
+
 import botmImg from "./assets/botma.jpg";
 import botrImg from "./assets/botr.jpg";
 import curlImg from "./assets/curl.jpg";
@@ -40,9 +41,9 @@ function App() {
       {/* Badri Section */}
       <header className="Badri">
         <h2 className="he">PORTFOLIO</h2>
-        .
-        <h2>Badrinath M S</h2>
-        <h3>Full Stack Developer  ReactJS & Python Enthusiast</h3>
+        <br></br>
+        <h2 className="Name">Badrinath M S</h2>
+        <h3 className="Dev">Full Stack Developer </h3>
         
       </header>
 
@@ -50,12 +51,18 @@ function App() {
       <section className="section">
         <h2>Skills</h2>
         <div className="card-container">
-          <strong><div className="card">ReactJS</div></strong>
-          <strong><div className="card">Python</div></strong>
-          <strong><div className="card">Data Analysis </div></strong>
-          <strong><div className="card">HTML,CSS and JavaScript</div></strong>
-          <strong><div className="card">GitHub</div></strong>
-          <strong><div className="card">MS Word,Excel and Powerpoint</div></strong>
+          <strong><div className="card"><h3>Technical skills</h3>ReactJS<br></br>
+          Python<br></br>Java<br></br>NodeJS<br></br>HTML,CSS and JavaScript<br></br>SQL,NoSQL
+          <br></br>Data Analysis <br></br>MS Word,Excel and Powerpoint
+          <br></br>Github (Version Control)</div></strong>
+          <strong><div className="card"><h3>Data Analytics skills</h3>Power BI<br></br>
+          Tableau<br></br>MS Excel</div></strong>
+          <strong><div className="card"><h3>Design skills</h3>Figma<br></br>Canva<br></br>Wireframing<br></br>UI/UX Design
+          <br></br>Responsive Web Design</div></strong>
+          <strong><div className="card"><h3>Soft skills</h3>Maintaining cross-disciplinary thinking<br></br>
+           Cross-Functional Collaboration<br></br>Design Sensibility<br></br>Experimentation Mindset<br></br>Visualizations</div></strong>
+          
+           
         </div>
       </section>
 
@@ -66,7 +73,7 @@ function App() {
           <div className="card">
             <img src={ethImg} alt="Ethereum Price predictor Using Python " />
             <h3>Ethereum Price predictor Using Python</h3>
-            <p>I Developed  a live Ethereum price tracker.</p>
+            <p>I Built Python backend + JavaScript frontend with real-time API integration.</p>
             <a href="https://github.com/badrinathbadri1/eth-price-predictor" className="btn">
               Visit Project
             </a>
@@ -74,7 +81,8 @@ function App() {
           <div className="card">
             <img src={curlImg} alt="Biceps Curl Tracker" />
             <h3>Biceps Curl Motion Detector Using Python</h3>
-            <p>I Built fitness tracker using computer vision by using python.</p>
+            <p> I Implemented real-time Biceps Motion Detection 
+              using Python and maintained system performance for accurate tracking.</p>
             <a href="https://github.com/badrinathbadri1/biceps-curl-predictor" className="btn">
               Visit Project
             </a>
@@ -83,7 +91,7 @@ function App() {
           <div className="card">
             <img src={dashImg} alt="Dashboard Generator" />
             <h3>Dashboard Generator</h3>
-            <p>I Developed and deployed a Dashboard Generator.</p>
+            <p>I Created and Deployed interactive data visualization dashboards using ReactJS </p>
             <a href="https://badrinathbadri1.github.io/dash-board-by-badri/" className="btn">
               Visit Project
             </a>
@@ -92,7 +100,7 @@ function App() {
           <div className="card">
             <img src={botrImg} alt="Chatbot for Reactjs" />
             <h3>Chatbot for Reactjs By Using ReactJS</h3>
-            <p>I Developed and deployed a Chatbot for Reactjs by using reactJS.</p>
+            <p>I Developed and Deployed interactive conversation flow with state management using ReactJS</p>
             <a href="https://badrinathbadri1.github.io/reactjs-chatbot-by-badri/" className="btn">
               Visit Project
             </a>
@@ -101,7 +109,7 @@ function App() {
           <div className="card">
             <img src={botmImg} alt="chat bot for math" />
             <h3>Chatbot for solving math queries</h3>
-            <p>I Built a Chatbot for solving math queries by using python.</p>
+            <p>I Developed Python-based chatbot for solving complex math problems.</p>
             <a href="https://github.com/badrinathbadri1/math-chatbot-by-badri" className="btn">
               Visit Project
             </a>
@@ -110,7 +118,8 @@ function App() {
           <div className="card">
             <img src={ecomImg} alt="E-commerce" />
             <h3>E-commerce Website</h3>
-            <p>I Developed and deployed a E-commerce Website by using HTML/CSS and JavaScript.</p>
+            <p>I Designed and Deployed and implemented HTML, CSS, JavaScript 
+              UI/UX design, and responsive layout.</p>
             <a href="https://aravind-wood-decors.vercel.app" className="btn">
               Visit Project
             </a>
@@ -137,8 +146,9 @@ function App() {
         <h2>Internship</h2>
         <div className="card-container">
           <div className="card">
-            <h3>Frontend Intern</h3>
-            <p>Worked on React.js components and UI improvements.</p>
+            <h3>ReactJS Developer Intern – Novotech</h3>
+            <p> Developed interactive UI components using ReactJS,
+               integrated REST APIs, and managed code versioning using Git.</p>
           </div>
         </div>
 
@@ -146,8 +156,9 @@ function App() {
         
         <div className="card-container">
           <div className="card">
-            <h3>Data Analysis Intern</h3>
-            <p>I worked on Power BI tools to collect and clean data, analyze datasets, and develop visualizations.</p>
+            <h3>Data Analytics Intern – Novitech</h3>
+            <p> Analyzed datasets, created dashboards and data visualizations
+               using Power BI, Tableau, and MS Excel, and maintained reporting systems.</p>
           </div>
         </div>
 
@@ -155,8 +166,9 @@ function App() {
         <br></br>
         <div className="card-container">
           <div className="card">
-            <h3>Fulls Stack Intern</h3>
-            <p>I Worked on HTML, CSS, JavaScript, and PHP for both frontend design and backend development.” .</p>
+            <h3>Full Stack Development Intern – BrandBee Technologies</h3>
+            <p> Built responsive full-stack applications using ReactJS, Node.js, and Express.js. Implemented database operations using SQL/NoSQL. 
+              Worked in Agile/Scrum teams and deployed apps on cloud platforms (Vercel)..</p>
           </div>
         </div>
       </section>
@@ -204,21 +216,21 @@ function App() {
         <h2>Contact</h2>
         <div className="card-container contact-icons">
           <a href="mailto:badrinathjuly23@gmail.com" target="_blank" rel="noreferrer">
-            <FaEnvelope size={40} /> <p>E-mail</p>
+            <FaEnvelope size={40} /> <p className="p">E-mail</p>
           </a>
           
           <a href="https://linkedin.com/in/badri-nath-043554270" target="_blank" rel="noreferrer">
-            <FaLinkedin size={40} /><p>Linkedin</p>
+            <FaLinkedin size={40} /><p className="p">Linkedin</p>
           </a>
           
           <a href="tel:+919894405382" target="_blank" rel="noreferrer">
-            <FaPhoneAlt size={40} /><p>Mobile</p>
+            <FaPhoneAlt size={40} /><p className="p">Mobile</p>
           </a>
           <a href="https://github.com/badrinathbadri1" target="_blank" rel="noreferrer">
-            <FaGithub size={50} /><p>Github</p>
+            <FaGithub size={50} /><p className="p">Github</p>
           </a>
           <a href="http://sololearn.com/Profile/22757283" target="_blank" rel="noreferrer">
-          <FaLaptopCode size={50} /> <p>Sololearn</p>
+          <FaLaptopCode size={50} /> <p className="p">Sololearn</p>
 
 
           </a>
